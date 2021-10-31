@@ -1,0 +1,161 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "roboto";
+	background: linear-gradient(45deg, rgba(153,160,212,0.9724264705882353) 0%, rgba(22,106,99,0.9836309523809523) 17%, rgba(15,150,8,1) 43%, rgba(0,212,255,1) 100%);
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.list{
+	padding: 30px 30px 0 30px;
+	margin: 0 0 30px 0;
+}
+.list ul li {
+	font-size: 16px;
+	min-height: 30px;
+	padding: 5px 30px 0 20px;
+	background: url(../img/Overline\ Mark.png) 100% 0  no-repeat;
+}
+.block{
+	padding: 0 30px;
+	color: aliceblue;
+	margin: 0 0 30px 0;
+
+}
+.block_1{
+	vertical-align:top;
+	max-width: 400px;
+	max-height: 400px;
+	display: inline-block;
+	padding: 10px;
+	margin: 0 10px 10px 0;
+	background: 
+		repeating-linear-gradient(-45deg, transparent, transparent 25%, tomato 0, tomato 50%),
+		repeating-linear-gradient(45deg, transparent, transparent 25%, dodgerblue 0, dodgerblue 50%),
+		wheat;
+	background-size: 10em 10em;
+	background-blend-mode: multiply;
+}
+.block_2{
+	vertical-align:top;
+	max-width: 400px;
+	max-height: 400px;
+	display: inline-block;
+	padding: 10px;
+	margin: 0 10px 10px 0;
+	background: 
+		repeating-linear-gradient(50deg, #F7A37B, #F7A37B 1em, #FFDEA8 1em, #FFDEA8 2em, #D0E4B0 2em, #D0E4B0 3em, #7CC5D0 3em, #7CC5D0 4em, #00A2E1 4em, #00A2E1 5em, #0085C8 5em, #0085C8 6em), 
+		repeating-linear-gradient(-50deg, #F7A37B, #F7A37B 1em, #FFDEA8 1em, #FFDEA8 2em, #D0E4B0 2em, #D0E4B0 3em, #7CC5D0 3em, #7CC5D0 4em, #00A2E1 4em, #00A2E1 5em, #0085C8 5em, #0085C8 6em);
+	background-blend-mode: multiply;
+	
+}
+.block_3{
+	vertical-align:top;
+	max-width: 400px;
+	max-height: 400px;
+	display: inline-block;
+	padding: 10px;
+	background-color: #026873;
+	background-image: 
+		linear-gradient(90deg, rgba(255,255,255, 0.07) 50%, transparent 50%), 
+		linear-gradient(90deg, rgba(255,255,255, 0.13) 50%, transparent 50%), 
+		linear-gradient(90deg, transparent 50%, rgba(255,255,255, 0.17) 50%),
+		linear-gradient(90deg, transparent 50%, rgba(255,255,255, 0.19) 50%);
+	background-size: 13px, 29px, 37px, 53px;
+}
+.image{
+	height: 800px;
+	padding: 20px;
+	margin: 0 30px 30px 30px;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 20px;
+	background: url(../img/forest-gde1ad0351_1920.jpg) bottom right/ 200px no-repeat, url(../img/road-g1048ddca5_1920.jpg) top left/ 200px  no-repeat, url(../img/river-g78ffd80bc_1280.jpg) 50%/cover no-repeat;
+
+}
+.contact{
+	max-width: 220px;
+	max-height: 240px;
+	color: #4B4B4B;
+	margin: 0 auto;
+}
+span{
+	display: inline-block;
+	margin: 0 0 28px 0;
+}
+.contactlist{
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	margin: 0 0 30px 0;
+
+}
+.contactlist_first{
+	padding: 0 0 16px 25px;
+	min-height: 17px;
+	background: url(../img/location_24px.png) 0 2px no-repeat;
+}
+.contactlist_two{
+	padding: 0 0 16px 25px;
+	min-height: 17px;
+	background: url(../img/smartphone_24px.png) 0 2px no-repeat;
+
+
+}
+.contactlist_three{
+	padding: 0 0 16px 25px;
+	min-height: 17px;
+	background: url(../img/email_24px.png) 0 2px no-repeat;
+
+}
+.contactlist_four{
+	padding: 0 0 16px 25px;
+	min-height: 17px;
+	background: url(../img/timer_24px.png) 0 2px no-repeat;
+
+}
